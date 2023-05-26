@@ -1,0 +1,79 @@
+body{
+background-color:whitesmoke;
+}
+
+h1{
+    font-family: cursive;
+    color:rgb(131, 3, 73); 
+    
+}
+.fixed{
+    background-color: rgb(93, 142, 197);
+    font-size: 20px;
+    width: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    display: block;
+    border: 1px solid black;
+    text-decoration: none;
+}
+.fixed a{
+    text-decoration: none;
+    color: rgb(131, 2, 99);
+    font-family: cursive;
+    align-self: center;
+}
+.main{
+    box-shadow: 0 4px 8px black;
+    transition: 0.3s;
+    background-color: azure;
+    width: 400px;
+    height: 100%;
+    margin: 10px;
+}
+.h4{
+    font-style: inherit;
+    text-align: center;
+}
+.button{
+    padding: 10px;
+    background-color: crimson;
+    color: bisque;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    justify-content:left;
+}
+.body{
+    margin:0;
+    padding: 0;
+    background: rgb(216, 246, 250);
+    font-family: 'Times New Roman', Times, serif;
+}
+.box{
+    position: absolute;
+    left: 47%;
+    top: 37%;
+    transform: translate(-50% -50%);
+}
+input.src{
+    outline: none;
+    width: 60px;
+    padding: 9px 10px 9px 32px;
+    color: black;
+    border-radius: 15px;
+    font-size: 18 px;
+    transition: all .5s;
+    background: rgb(238, 3, 3)0) url("search-icono.png") no-repeat 9px center;
+}
+input.src:hover{
+      width: 180px;
+      border-color: black ;
+      box-shadow: 0 0 5px;
+}
