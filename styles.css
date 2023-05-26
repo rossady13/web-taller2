@@ -53,7 +53,7 @@ h1{
 .body{
     margin:0;
     padding: 0;
-    background: rgb(216, 246, 250);
+    background: rgb(42, 108, 114);
     font-family: 'Times New Roman', Times, serif;
 }
 .box{
@@ -70,7 +70,7 @@ input.src{
     border-radius: 15px;
     font-size: 18 px;
     transition: all .5s;
-    background: rgb(238, 3, 3)0) url("search-icono.png") no-repeat 9px center;
+    background: whitesmoke url("search-icono.png") no-repeat 9px center;
 }
 input.src:hover{
       width: 180px;

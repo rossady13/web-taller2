@@ -4,12 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>new Restaurant</title>
+    <link rel="stylesheet" href="stilo.css">
 </head>
 <body>
-    <form action="">
-        <input type="text">
-        <label for="">Nombre:</label>
+   <section class="new-restaurant">
+    <h4>Nuevo Restaurante</h4>
+    <label class="lab" for="nombre">Nombre </label><br>
+    <input class="controls" type="text" name="nombre" id="nombre" placeholder="Nombre del Restaurante"><br>
+    <label class="lab" for="descripcion">Descripcion</label><br>
+    <input class="controls" type="text" name="descripcion" id="descripcion" placeholder="Agrega una descripcion"><br>
+    <label class="lab" for="direccion">Direccion</label><br>
+    <input class="controls" type="text" name="direccion" id="direccion" placeholder=" Escribe tu direccion"><br>
+    <label class="lab" for="imagen">Imagen URL</label>
+    <input class="controls" type="url" name="imagen" id="imagen" placeholder="Inserte url"><br>
+    <form action="index.html">
+        <input class="sub" type="submit" value=" Guardar">
     </form>
+   </section>
 </body>
 </html>
